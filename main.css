@@ -1,0 +1,354 @@
+.container {
+  height: 500px;
+  /* background-color: orange; */
+  }
+ /*  header {
+  background-color: #4267b2;
+  height: 30px;
+} */
+footer {
+  /* background-color: rgba(0,0,0,0.87); */
+  height: 30px;
+}
+
+body {
+	background: #e9ebee;
+	
+}
+
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 600px;
+
+}
+
+#main,
+#menu,
+#sidebar {
+  height:1200px;
+  background-color: #e9ebee;
+}
+#header{
+background-color: #4267b2;
+color: white;
+}
+
+.white-text {
+	margin-top:5px;
+	padding:0px;
+  color: white !important
+}
+
+.black-text {
+    color: black !important;
+    margin-top: -8px;
+    margin-bottom: 9px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    display: block-inline;
+    padding: 0px !important;
+}
+#badge1{
+	color:white;
+	background-color:red;
+	position:relative;
+	top:-23px;
+	border-radius:1px;
+	padding:1px 2px 1px 4px;
+	
+}
+
+li .badge {
+    margin-top: 11px;
+    background: none;
+    color: #909ebd;
+    float: right !important;
+}
+
+#header ul .glyphicon {
+    font-size: 15px;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+h5 {
+	text-align: left;
+	
+}
+
+.like-page {
+	
+	position:relative;
+	left:-5px;
+	top:-3px;
+}
+
+.plus {
+	float:right;
+	
+}
+
+.image-post {
+    margin-bottom: 15px;
+}
+
+#main {
+    overflow: auto;
+}
+
+#main::-webkit-scrollbar {
+    display: none;
+}
+
+a .fa-video-camera {
+	margin-right:5px;
+	margin-left: 8px;
+	
+	
+}
+
+a .fa-pencil {
+	margin-right:5px;
+	margin-left: 5px;
+
+	
+}
+
+a .fa-facebook-official {
+	margin: 9px 0px 25px 230px;
+	height:25px;
+	padding-bottom:5px;	
+}
+
+div .fa-gift {
+	color:#F52C91;
+	font-size:20px;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+.comment {
+    margin: 0;
+}
+.video-timeline{
+	width:530px; 
+	height:400px;
+}
+#form1 {
+	width:360px;
+	height:30px;
+
+}
+
+.form-control {
+	width:350px;
+	margin-top:2px;
+}
+
+.control-button {
+	height:24px;
+	margin-left:-15px;
+	margin-top:2px;
+
+}
+
+.btn .btn-default{
+	position:relative;
+	left:50%;
+}
+
+.button-size {
+	width:45%;
+	height:30px;
+	padding:0px;
+	color:black;
+}
+
+.tab-pane div{
+	margin-left: 30px;
+	background-color:white;
+}
+
+.trending {
+	
+	margin-top:20px;
+	background-color: white;
+}
+
+.panel-body .fa-share {
+	 margin-left: 10px;
+    margin-right: 5px;
+	
+}
+
+
+img {
+	margin:10px;
+}
+
+.panel-body .img {
+	
+	float:center;
+}
+
+.nav-img {
+	position:relative;
+	top:-3px;
+}
+
+.nav-tabs{
+	margin:0px;
+	padding:0px!important
+}	
+
+.nav-tabs>li{
+    margin-right: -15px;
+  background-color:white;
+    border: 0px solid transparent;
+    border-radius:none;
+	padding:0px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 0px 0px ;
+	margin-right:15px;
+
+}
+
+.nav-right {
+	position:relative;
+	bottom:-10px;
+	right:210px;
+	
+}
+
+#nav-right-img {
+position:relative;
+top:-10px;
+}
+
+.panel-body .last {
+
+margin-bottom:10px;
+margin-top:10px;
+padding:0px;
+}
+
+.panel-body .fa-share {
+	 margin-left: 10px;
+    margin-right: 5px;
+	
+}
+.panel-body .fa-thumb {
+	margin-left: 10px;
+    margin-right: 5px;
+}
+
+.panel-body .tag1 {
+	 margin-left: 10px;
+    margin-right: 5px;
+}
+
+div .panel-body .fa-smile-o {
+	
+	color: red;
+}
+
+div .panel-body .fa-meh-o {
+	
+	color: red;
+}
+
+.sponsored {
+	float:right;
+	
+}
+
+.para {
+	font-size:15px;
+	color:grey;
+}
+
+@media (max-width: 1062px) {
+
+
+body {
+	background: #e9ebee;
+	margin-top:55px;
+}
+
+a .fa-facebook-official {
+	margin: 7px 0px 5px 5px;
+	height:25px;
+	padding-bottom:5px;	
+}
+}
+
+@media (max-width: 948px) {
+
+
+body {
+	background: #e9ebee;
+	margin-top:55px;
+}
+
+a .fa-facebook-official {
+	margin: 8px 0px 5px 120px;
+	height:25px;
+	padding-bottom:5px;	
+}
+
+ .nav-right {
+    position: relative;
+    bottom: -10px;
+    right: 110px;
+}
+
+@media (max-width: 728px) {
+	
+	.nav-right {
+    position: relative;
+    bottom: -10px;
+    right: 0px;
+}
+a .fa-facebook-official {
+	margin: 9px 0px 20px 33px;
+	height:25px;
+	padding-bottom:5px;	
+}
+
+#badge1{
+	color:white;
+	background-color:red;
+	position:relative;
+	left:-230px;
+	top:-2px;
+	border-radius:1px;
+	padding:1px 2px 1px 4px;
+	
